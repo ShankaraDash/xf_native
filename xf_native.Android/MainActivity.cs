@@ -7,6 +7,11 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
+// We'll need the Agora package for downlinking the voice and video.
+using DT.Xamarin.Agora;
+using DT.Xamarin.Agora.Video;
+using SystemDebug = System.Diagnostics.Debug;
+
 namespace xf_native.Droid
 {
     [Activity(Label = "xf_native", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
